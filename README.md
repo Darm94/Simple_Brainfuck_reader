@@ -28,26 +28,35 @@ python brainfuck.py --bf-text "+++++[>++++++++<-]>+.+."
 Ask for help
 
 python brainfuck.py --help
+---
 
-Functions Description
-Function	Description
-exe_brainfuck(file_path)	Executes Brainfuck code from a file
-exe_brainfuck_text(text)	Runs Brainfuck text by creating a temporary file
-run_file(path)	Validates and runs an existing .bf file
-validate_bf(code)	Checks for invalid characters
-main()	Command-line interface using argparse
-Allowed Brainfuck Commands
+## Functions Description
+
+| Function                | Description                                      |
+|-------------------------|--------------------------------------------------|
+| `exe_brainfuck(file_path)`   | Executes Brainfuck code from a file              |
+| `exe_brainfuck_text(text)`   | Runs Brainfuck text by creating a temporary file |
+| `run_file(path)`             | Validates and runs an existing `.bf` file        |
+| `validate_bf(code)`          | Checks for invalid characters                    |
+| `main()`                     | Command-line interface using `argparse`          |
+
+---
+
+## Allowed Brainfuck Commands
 
 < > + - . , [ ]
 
-Requirements
+---
 
-    Python 3.10 or higher (for match/case syntax)
+## Requirements
 
-References
+- Python 3.10 or higher (for `match/case` syntax)
 
-    Python argparse documentation
+---
 
-Python os documentation
+## References
 
-Python tempfile documentation
+- [Python argparse documentation](https://docs.python.org/3/library/argparse.html)
+- [Python os documentation](https://docs.python.org/3/library/os.html)
+- [Python tempfile documentation](https://docs.python.org/3/library/tempfile.html)
+
