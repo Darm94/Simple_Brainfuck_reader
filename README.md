@@ -28,6 +28,9 @@ python brainfuck.py --bf-text "+++++[>++++++++<-]>+.+."
 Ask for help
 
 python brainfuck.py --help
+
+```
+
 ---
 
 ## Functions Description
